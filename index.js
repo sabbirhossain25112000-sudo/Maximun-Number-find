@@ -12,4 +12,4 @@ function highestScore() {
   }
   return max;
 }
-console.log(highestScore()); // Output: 95
+console.log(highestScore()); 
