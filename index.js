@@ -1,15 +1,14 @@
-function highestScore() {
-    let score = [];
-    for(let i=0;i<5;i++){
-        score[i] = parseInt(prompt("Enter a number: "));
-    }
+// function highestScore(score){
+//     let highest=score[0];
+//     for(let i=0;i<score.length;i++){
+//         if(score[i]>highest){
+//             highest=score[i];
+//         }
+//     }
+//     return highest;
 
-        let max = score[0];
-  for (let i = 1; i < 5; i++) {
-    if (max < score[i]) {
-      max = score[i];
-    }
-  }
-  return max;
-}
-console.log(highestScore()); 
+// }
+
+// let score=[10,20,30,40,50];
+// let maximum=highestScore(score);
+// console.log("The highest score is "+maximum);
